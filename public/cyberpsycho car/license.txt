@@ -1,0 +1,11 @@
+Model Information:
+* title:	CyberPsycho Car
+* source:	https://sketchfab.com/3d-models/cyberpsycho-car-cff6fbef9b034969b0e481c5d5838930
+* author:	TAM-69 (https://sketchfab.com/tamtyt61)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CyberPsycho Car" (https://sketchfab.com/3d-models/cyberpsycho-car-cff6fbef9b034969b0e481c5d5838930) by TAM-69 (https://sketchfab.com/tamtyt61) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
