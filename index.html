@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <canvas class="absolute top-0 right-0 w-full h-screen"></canvas>
+  <div class="main">
+
+    <div class="carChangeButton absolute z-10 top-5 right-5 ">
+      <button id="changeCar" class="bg-emerald-600 text-white px-3 py-2 rounded-full border-2 border-zinc-50 active:scale-95">Change Car</button>
+    </div>
+    <div class="absolute top-0 -translate-x-full left-0 w-96 h-screen  z-10  py-1 px-2">
+      <div id="card-div" class="flex flex-col gap-3  filter backdrop-blur-lg border-2 rounded-xl px-3 border-blue-600 h-full overflow-auto pb-10 pt-3">
+       
+      </div>
+      
+
+
+    </div>
+    <div class="changeColor absolute bottom-3 right-1/2  z-10">
+      
+        <button class="bg-cyan-500  text-white px-3 py-2 rounded-full border-2 border-zinc-50 active:scale-95">
+          <label for="changeColor">change Color</label>
+          </button>
+      <input type="color" class="sr-only" onchange="console.log(this.value)" name="changeColor" id="changeColor">
+    </div>
+    <canvas class="absolute top-0 right-0 w-full h-screen"></canvas>
+  </div>
   <script type="module" src="./main.js"></script>
 </body>
+
 </html>
