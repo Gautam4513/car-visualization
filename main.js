@@ -19,7 +19,7 @@ const carData = [
     name: "batman car",
     scale: new THREE.Vector3(0.35, 0.35, 0.35),
     lookAt: new THREE.Vector3(1, 0, 1),
-    img: "public/img/batman-car.jpeg",
+    img: "./img/batman-car.jpeg",
     body:"Tumbler_Main_Body_body__0"
   },
   {
@@ -73,7 +73,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
 //add hdri
-hdriLoader.load("public/pond_bridge_night_1k.hdr", (hdri) => {
+hdriLoader.load("./pond_bridge_night_1k.hdr", (hdri) => {
   hdri.mapping = THREE.EquirectangularReflectionMapping;
   scene.background = hdri;
   scene.environment = hdri;
